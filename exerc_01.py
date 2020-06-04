@@ -2,7 +2,7 @@
 
 grupo= list()
 pessoa = dict()
-soma = media = 0
+soma1 = soma2 = media = 0
 while True:
     pessoa.clear()
     pessoa['codigo'] = str(input('Digite o código: '))
@@ -23,8 +23,8 @@ print('-=' * 30)
 print(f'A) Ao todo temos {len(grupo)} pessoas cadastradas.')
 media_idade = soma1 / len(grupo)
 media_altura = soma2 / len(grupo)
-print(f'B) A média das idades é: {media:5.2f}')
-print(f'C) A média das altura é: {media:5.2f}')
+print(f'B) A média das idades é: {media_idade:5.2f}')
+print(f'C) A média das altura é: {media_altura:5.2f}')
 
 print('<< ENCERRADO >>')
 
